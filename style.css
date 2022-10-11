@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: rgb(40, 42, 55);
+  --fc-primary: #C4C4CC;
+  --fc-second: hsl(0, 0%, 100%);
+  --fc-third: hsla(194, 97%, 31%, 1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  color: var(--fc-primary);
+  font-size: 1.6rem;
+  background-color: var(--bg-primary);
+}
+
+reader {
+  width: 100%;
+  height: 12.2rem;
+  margin-left: 7.2rem;
+  padding: 4rem 0;
+  display: flex;
+  gap: 5.2rem;
+  position: fixed;
+  z-index: +1;
+}
+
+nav {
+  display: flex;
+  align-self: center;
+  gap: 4.2rem;
+}
+
+a {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-weight: bold;
+  color: var(--fc-second);
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.home {
+  display: grid;
+  place-content: center;
+}
+
+main {
+  color: var(--fc-primary);
+  margin: 0 10rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.8rem;
+  line-height: 125%;
+  margin-bottom: 2.4rem;
+}
+
+button {
+  width: 19.5rem;
+  height: 4.8rem;
+  background-color: transparent;
+  border: 2px solid var(--fc-second);
+  border-radius: 5px;
+
+  color: var(--fc-second);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--fc-second);
+  color: var(--fc-third);
+  font-weight: bold;
+}
+
+h2 {
+  margin: calc(18.5rem - 12.2rem) 0 1.6rem;
+  font-size: 4.8rem;
+  line-height: 125%;
+  font-weight: 700;
+  text-align: left;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 160%;
+  font-weight: 400;
+  text-align: left;
+}
