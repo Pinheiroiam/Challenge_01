@@ -7,7 +7,7 @@
 Projeto construído na trilha Explorer da Rocketseat, nível 06.
 
 
-[🔗 Clique aqui para acessar](https://pinheiroiam.github.io/FocusTimer-v2/)
+[🔗 Clique aqui para acessar](https://pinheiroiam.github.io/Challlenge_01/)
 
 ## 💻 Tecnologias
 
